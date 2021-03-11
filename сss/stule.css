@@ -345,6 +345,7 @@ flex-wrap: wrap;
             width: 20px;
             fill: #AFB1B8;
         }
+       
         
         .ssocial-masters{
             display: flex;
@@ -731,6 +732,7 @@ top: 221px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
+padding: 40px;
 }
 .modal.is-hidden{
         display: 0;
@@ -793,5 +795,115 @@ fill: #FFFFFF;
 }
 
 
+/* Модалка */
+.button-modal{
+width: 30px;
+height: 30px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+position: absolute;
+right: 8px;
+top: 8px;
+border-radius: 100%;
+ 
+}
 
+.button-modal-svg{
+    height: 11px;
+    width: 11px;
+    fill: #AFB1B8;
+ }
+ .button-modal-svg:hover{
+     fill: #2196F3;
+ }
+ .button-modal-svg:focus{
+    fill: #2196F3;
+}
+ .modal-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 2px;
+    
+ }
+.form-information
+{
+   
 
+}
+.contact-form-input{
+    display: block;
+     width: 448px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin-top: 4px;
+        padding: 0 32px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        outline: none;
+}
+.contact-form-input:hover,
+.contact-form-input:focus{
+    border-color:#188CE8; 
+}
+
+.form__name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+}
+.contact-form-btn{
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+padding: 10px 55px;
+margin: 0 auto;
+}
+.contact-form-btn:hover,
+.contact-form-btn:focus{
+    background: #188CE8;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.contact-form-masseger{
+    width: 448px;
+height: 120px;
+left: 576px;
+top: 518px;
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+padding: 12px 16px;
+resize: none;
+margin: 4px 0px 20px;
+outline: none;
+}
+
+.contact-form-masseger:hover,
+.contact-form-masseger:focus{
+    border-color:#188CE8; ;
+}
