@@ -76,26 +76,41 @@
             <form action="#" class="form-information">
               <label  class="form__name">
                 Имя
+                <span class="modal-form-wraper">
               <input type="text" name="user-name" class="contact-form-input " required> 
-               
-               
+              <svg class="contact-form-svg">
+                <use href="./img/sprite.svg#icon-piple "></use>
+              </svg>
+               </span>
             </label>
 
             <label  class="form__name">
               Телефон
+              <span class="modal-form-wraper">
             <input type="tel" name="user-phone" class="contact-form-input " required> 
+            <svg class="contact-form-svg">
+              <use href="./img/sprite.svg#icon-tel "></use>
+            </svg>
+          </span>
           </label>
 
           <label  class="form__name">
            Почта
+           <span class="modal-form-wraper"> 
           <input type="email" name="user-email" class="contact-form-input " required> 
+          <svg class="contact-form-svg">
+            <use href="./img/sprite.svg#icon-konv "></use>
+          </svg>
+        </span>
         </label>
       <div  >
        <p class="form__name">Комментарий</p>
        <textarea  name="Комментарий" class="contact-form-masseger" placeholder="Введите текст"></textarea>
+       <input type="checkbox" value="policy-accept" class="modal-form-policy " required> 
+       <label>Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-form-conditions">Условия договора</a></label>
       </div>
               <div class="contact-form-input-wraper">
-                <button class="contact-form-btn"> Отправить</button>
+                <button  type="submit" class="contact-form-btn"> Отправить</button>
 
               </div>
 

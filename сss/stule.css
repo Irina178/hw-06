@@ -849,6 +849,13 @@ border-radius: 100%;
         padding: 0 32px;
         border: 1px solid rgba(33, 33, 33, 0.2);
         outline: none;
+        
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height:1.666px;
+letter-spacing: 0.01em;
 }
 .contact-form-input:hover,
 .contact-form-input:focus{
@@ -860,9 +867,10 @@ border-radius: 100%;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 14px;
+line-height: 1.666;
 letter-spacing: 0.01em;
 color: #757575;
+ 
 }
 .contact-form-btn{
 background: #188CE8;
@@ -872,7 +880,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 display: flex;
 align-items: center;
@@ -881,6 +889,7 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 padding: 10px 55px;
 margin: 0 auto;
+margin-top: 30px;
 }
 .contact-form-btn:hover,
 .contact-form-btn:focus{
@@ -907,3 +916,33 @@ outline: none;
 .contact-form-masseger:focus{
     border-color:#188CE8; ;
 }
+.modal-form-conditions{
+    color: #2196F3;
+    text-decoration: underline;
+     }
+
+.modal-form-policy{
+    position: absolute;
+     background: #212121;
+     border-radius: 4px;
+    }
+
+     .contact-form-svg{
+position: absolute;
+fill: #212121;
+width: 12px;
+height: 12px;
+left: 12px;
+top: 50%;
+transform: translateY(-50%);
+}
+.modal-form-wraper{ 
+display: block;
+position: relative;
+}
+.contact-form-svg:hover,
+.contact-form-svg:focus
+ {
+    fill: #2196F3;
+}
+ 
