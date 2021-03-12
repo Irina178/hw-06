@@ -922,8 +922,7 @@ outline: none;
      }
 
 .modal-form-policy{
-    position: absolute;
-     background: #212121;
+    background: #212121;
      border-radius: 4px;
     }
 
@@ -940,7 +939,7 @@ transform: translateY(-50%);
 display: block;
 position: relative;
 }
-.contact-form-svg:hover,
+.contact-form-svg:hover
 .contact-form-svg:focus
  {
     fill: #2196F3;
